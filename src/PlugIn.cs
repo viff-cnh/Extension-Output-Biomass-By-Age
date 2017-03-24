@@ -20,7 +20,10 @@ namespace Landis.Extension.Output.BiomassByAge
         
         private static ICore modelCore;
         private IEnumerable<ISpecies> selectedSpecies;
+        public static IEnumerable<ISpecies> speciesToMap;
+        public static Dictionary<string, List<AgeClass>> ages;
         private string speciesMapNameTemplate;
+        public static string speciesNamesTemplate;
         private Dictionary<string, List<AgeClass>> ageClasses;
         private IInputParameters parameters;
 
@@ -59,6 +62,10 @@ namespace Landis.Extension.Output.BiomassByAge
             this.selectedSpecies = parameters.SelectedSpecies;
             this.speciesMapNameTemplate = parameters.SpeciesMapNames;
             this.ageClasses = parameters.AgeClasses;
+            speciesToMap = parameters.SelectedSpecies;
+            speciesNamesTemplate = parameters.SpeciesMapNames;
+            ages = parameters.AgeClasses;
+
         }
 
         //---------------------------------------------------------------------
@@ -102,9 +109,9 @@ namespace Landis.Extension.Output.BiomassByAge
 
         //---------------------------------------------------------------------
 
-        private string MakeSpeciesMapName(string species,string ageclass)
+        public static string MakeSpeciesMapName(string species,string ageclass)
         {
-            return MapNames.ReplaceTemplateVars(speciesMapNameTemplate,
+            return MapNames.ReplaceTemplateVars(speciesNamesTemplate,
                                                        species,
                                                        ageclass,
                                                        modelCore.CurrentTime);
