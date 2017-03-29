@@ -4,7 +4,7 @@ Project Component:	Extension-Output-Biomass-by-Age
 Repository:		https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-by-Age
 Author:			LANDIS-II Foundation
 Revision Date:		27 Mar 2017
-Final Date:		
+Final Date:		28 Mar 2017
 
 
 Welcome to the source code repository for Extension-Output-Biomass-by-Age, a LANDIS-II extension. 

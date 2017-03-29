@@ -27,7 +27,7 @@ CellLength  100 << meters, 100 x 100 m = 1 ha
 
 >> 	Succession Extension     	Initialization File
 >> 	--------------------     	-------------------
-  	"NetEcosystemCN Succession"	NECN-succession_SetUp.txt
+  	"Biomass Succession"		biomass-succession_SetUp.txt
 
 
 >> --------------------------
@@ -36,10 +36,10 @@ CellLength  100 << meters, 100 x 100 m = 1 ha
 
 >> 	Disturbance Extensions   	Initialization File
 >>	 ----------------------   	-------------------
-	"Base Fire"			base-fire_SetUp.txt
+>>	"Base Fire"			base-fire_SetUp.txt
 	"Base Wind"			base-wind_SetUp.txt
 >>	"Base Harvest"			base-harvest_SetUp.txt
-	"Biomass Harvest"		biomass-harvest_SetUp.txt
+>>	"Biomass Harvest"		biomass-harvest_SetUp.txt
 
 >>   DisturbancesRandomOrder  yes  << optional parameter; default = no
 
@@ -51,8 +51,8 @@ CellLength  100 << meters, 100 x 100 m = 1 ha
 
 >> 	Output Extensions         	Initialization File
 >>	 ----------------         	------------------
-	"Output Max Species Age"	output-max-spp-age_SetUp.txt
-	"Output Cohort Statistics"	output-cohort-stats_SetUp.txt
+>>	"Output Max Species Age"	output-max-spp-age_SetUp.txt
+>>	"Output Cohort Statistics"	output-cohort-stats_SetUp.txt
 	"Output Biomass-by-Age"		output-biomass-by-age_SetUp.txt
 
 
