@@ -38,7 +38,7 @@ Source: ..\examples\*.csv; DestDir: {#AppDir}\examples\Output Biomass by Age
 
 ; LANDIS-II identifies the extension with the info in this .txt file
 ; NB. New releases must modify the name of this file and the info in it
-#define InfoTxt "output-biomass-by-age 2.1.txt"
+#define InfoTxt "Output Biomass-by-Age 2.2.txt"
 Source: {#InfoTxt}; DestDir: {#LandisPlugInDir}
 
 
