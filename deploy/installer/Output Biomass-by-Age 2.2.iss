@@ -1,6 +1,6 @@
 #define PackageName      "Output Biomass By Age"
 #define PackageNameLong  "Output Biomass By Age"
-#define Version          "2.1"
+#define Version          "2.2"
 #define ReleaseType      "official"
 #define ReleaseNumber    "2"
 #define CoreVersion      "6.0"
@@ -26,7 +26,7 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.BiomassByAge.dll; DestDir: {
 
 
 ; User Guides no longer shipped with installer
-;Source: docs\LANDIS-II Age Biomass Output v2.1 User Guide.pdf; DestDir: {#AppDir}\docs
+;Source: docs\LANDIS-II Age Biomass Output v2. User Guide.pdf; DestDir: {#AppDir}\docs
 
 
 ; Complete example for testing
