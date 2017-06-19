@@ -25,10 +25,6 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.BiomassByAge.dll; DestDir: {
 ; There are no auxilary libraries for this extension.
 
 
-; User Guides no longer shipped with installer
-;Source: docs\LANDIS-II Age Biomass Output v2. User Guide.pdf; DestDir: {#AppDir}\docs
-
-
 ; Complete example for testing
 Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Biomass by Age; Flags: replacesameversion
 Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Biomass by Age; Flags: replacesameversion
