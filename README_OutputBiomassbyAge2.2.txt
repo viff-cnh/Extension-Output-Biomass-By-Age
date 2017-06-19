@@ -1,4 +1,4 @@
-Title:			README_OutputBiomassbyAge2.0
+Title:			README_OutputBiomassbyAge2.2
 Project:		LANDIS-II Landscape Change Model
 Project Component:	Extension-Output-Biomass-by-Age
 Repository:		https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass-by-Age

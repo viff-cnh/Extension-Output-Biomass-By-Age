@@ -1,6 +1,6 @@
 #define PackageName      "Output Biomass By Age"
 #define PackageNameLong  "Output Biomass By Age"
-#define Version          "2.1"
+#define Version          "2.2"
 #define ReleaseType      "official"
 #define ReleaseNumber    "2"
 #define CoreVersion      "6.0"
@@ -25,20 +25,16 @@ Source: ..\..\src\bin\debug\Landis.Extension.Output.BiomassByAge.dll; DestDir: {
 ; There are no auxilary libraries for this extension.
 
 
-; User Guides no longer shipped with installer
-;Source: docs\LANDIS-II Age Biomass Output v2.1 User Guide.pdf; DestDir: {#AppDir}\docs
-
-
 ; Complete example for testing
-Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Biomass by Age
-Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Biomass by Age
-Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Biomass by Age
-Source: ..\examples\*.csv; DestDir: {#AppDir}\examples\Output Biomass by Age
+Source: ..\examples\*.txt; DestDir: {#AppDir}\examples\Output Biomass by Age; Flags: replacesameversion
+Source: ..\examples\*.gis; DestDir: {#AppDir}\examples\Output Biomass by Age; Flags: replacesameversion
+Source: ..\examples\*.bat; DestDir: {#AppDir}\examples\Output Biomass by Age; Flags: replacesameversion
+Source: ..\examples\*.csv; DestDir: {#AppDir}\examples\Output Biomass by Age; Flags: replacesameversion
 
 
 ; LANDIS-II identifies the extension with the info in this .txt file
 ; NB. New releases must modify the name of this file and the info in it
-#define InfoTxt "output-biomass-by-age 2.1.txt"
+#define InfoTxt "Output Biomass-by-Age 2.2.txt"
 Source: {#InfoTxt}; DestDir: {#LandisPlugInDir}
 
 
