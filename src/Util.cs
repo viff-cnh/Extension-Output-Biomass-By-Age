@@ -1,9 +1,9 @@
-//  Copyright 2005-2016 Portland State University, University of Wisconsin
 //  Authors:  Robert M. Scheller
 
 using Landis.Library.BiomassCohorts;
 using Edu.Wisc.Forest.Flel.Util;
-
+using Landis.Core;
+using Landis.SpatialModeling;
 using System;
 using System.Collections.Generic;
 
@@ -131,8 +131,9 @@ namespace Landis.Extension.Output.BiomassByAge
 
 
         //---------------------------------------------------------------------
-        public static int ComputeAgeClassBiomass(ISpeciesCohorts cohorts, AgeClass ageclass)
+        public static int ComputeAgeClassBiomass(Site site, ISpecies species, AgeClass ageclass)
         {
+            ISpeciesCohorts cohorts = (Landis.Library.BiomassCohorts.ISpeciesCohorts) SiteVars.Cohorts[site][species];
             int total = 0;
             if (cohorts == null)
                 return total;

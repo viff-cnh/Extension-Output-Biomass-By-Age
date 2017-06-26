@@ -95,7 +95,7 @@ namespace Landis.Extension.Output.BiomassByAge
                         foreach (Site site in modelCore.Landscape.AllSites)
                         {
                             if (site.IsActive)
-                                pixel.MapCode.Value = (int)((float)Util.ComputeAgeClassBiomass(SiteVars.Cohorts[site][species], ageclass));
+                                pixel.MapCode.Value = (int)((float)Util.ComputeAgeClassBiomass(site, species, ageclass));
                             else
                                 pixel.MapCode.Value = 0;
 
