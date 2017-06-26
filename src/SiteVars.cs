@@ -1,7 +1,6 @@
-//  Copyright 2008-2010  Portland State University, Conservation Biology Institute
 //  Authors:  Brendan C. Ward, Robert M. Scheller
 
-using Landis.Core;
+//using Landis.Core;
 using Landis.Library.BiomassCohorts;
 using System.Collections.Generic;
 using Landis.SpatialModeling;
