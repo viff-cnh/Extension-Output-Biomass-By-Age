@@ -1,7 +1,7 @@
 LandisData   Extension
 
 Name         "Output Biomass-by-Age"
-Version      "2.0"
+Version      "2.2.1"
 Type         output
 Assembly     Landis.Extension.Output.BiomassByAge
 Class        Landis.Extension.Output.BiomassByAge.PlugIn

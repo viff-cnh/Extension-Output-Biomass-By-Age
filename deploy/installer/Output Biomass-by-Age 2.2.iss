@@ -1,6 +1,6 @@
 #define PackageName      "Output Biomass By Age"
 #define PackageNameLong  "Output Biomass By Age"
-#define Version          "2.2"
+#define Version          "2.2.1"
 #define ReleaseType      "official"
 #define ReleaseNumber    "2"
 #define CoreVersion      "6.0"
