@@ -65,7 +65,7 @@ namespace Landis.Extension.Output.BiomassByAge
             speciesToMap = parameters.SelectedSpecies;
             speciesNamesTemplate = parameters.SpeciesMapNames;
             ages = parameters.AgeClasses;
-
+            MetadataHandler.InitializeMetadata(Timestep);
         }
 
         //---------------------------------------------------------------------
