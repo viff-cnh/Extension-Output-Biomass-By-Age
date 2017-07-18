@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+	<Compile Include="Assembly.cs" />
     <Compile Include="IInputParameters.cs" />
     <Compile Include="InputParameters.cs" />
     <Compile Include="InputParametersParser.cs" />
